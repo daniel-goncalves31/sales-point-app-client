@@ -1,4 +1,4 @@
-import './sidemenu.styles.less'
+import './sidemenu.styles.css'
 
 import {
   DatabaseOutlined,

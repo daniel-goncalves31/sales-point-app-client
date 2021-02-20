@@ -1,4 +1,4 @@
-import './content.styles.less'
+import './content.styles.css'
 
 import { Redirect, Route, Switch } from 'react-router-dom'
 

@@ -1,4 +1,4 @@
-import './sales.styles.less'
+import './sales.styles.css'
 
 import {
   Button,

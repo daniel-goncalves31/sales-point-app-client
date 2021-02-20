@@ -1,0 +1,64 @@
+.ant-modal-body {
+  padding: 16px 20px 8px 20px;
+}
+
+.ant-modal-body .form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ant-modal-body .form-row .ant-space-item:nth-child(1) {
+  width: -webkit-fill-available;
+}
+
+.ant-modal-body .form-row .ant-form-item-explain {
+  display: none !important;
+}
+
+.ant-modal-body .div-total {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.ant-modal-body .div-total h4 {
+  margin-bottom: 0;
+}
+
+.ant-modal-body .div-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 8px;
+}
+
+.ant-modal-body .div-row .currency-input {
+  width: 150px;
+}
+
+.ant-modal-body .div-row *:not(.ant-select-arrow) {
+  margin: 0;
+}
+
+.ant-modal-body .div-row > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.ant-modal-body .div-row .total-input {
+  border: none;
+  box-shadow: none;
+  font-size: 28px;
+  color: #000;
+  font-weight: 600;
+  width: 146px;
+  line-height: 1;
+  padding: 0 0 0 8px;
+  text-align: right;
+}
+
+.icon-delete-sale:hover {
+  color: #1890ff;
+}

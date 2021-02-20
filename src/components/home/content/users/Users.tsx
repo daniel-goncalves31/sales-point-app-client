@@ -1,22 +1,24 @@
-import React, { useState } from 'react'
+import './users.styles.css'
+
 import {
-  Typography,
+  Button,
   Divider,
-  Table,
-  Tag,
   Form,
   Popconfirm,
   Space,
-  Button,
-  Tooltip
+  Table,
+  Tag,
+  Tooltip,
+  Typography
 } from 'antd'
+import React, { useState } from 'react'
 import { UserModel, UserRole, UserStatus } from '../../../../models/user/UserModel'
+
+import AddUserModal from './AddUserModal'
 import { EditOutlined } from '@ant-design/icons'
 import EditableCell from './EditableUserCell'
-import AddUserModal from './AddUserModal'
-import './users.styles.less'
-import { usePostApi } from '../../../../hooks/use-post-api'
 import { log } from '../../../../utils/log'
+import { usePostApi } from '../../../../hooks/use-post-api'
 import { useUserContext } from '../../../../contexts/UserContext'
 
 interface Props { }

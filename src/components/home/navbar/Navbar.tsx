@@ -1,10 +1,12 @@
+import './navbar.styles.css'
+
+import { Menu, Typography } from 'antd'
+
+import { LogoutOutlined } from '@ant-design/icons'
 import React from 'react'
 import logo from '../../../assets/images/logo.png'
-import './navbar.styles.less'
-import { Menu, Typography } from 'antd'
-import { LogoutOutlined } from '@ant-design/icons'
-import { useFetchLazyApi } from '../../../hooks/use-fetch-lazy-api'
 import { useCurrentUserContext } from '../../../contexts/CurrentUserContext'
+import { useFetchLazyApi } from '../../../hooks/use-fetch-lazy-api'
 
 interface Props { }
 

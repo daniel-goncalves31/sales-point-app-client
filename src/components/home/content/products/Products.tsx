@@ -1,4 +1,4 @@
-import './products.styles.less'
+import './products.styles.css'
 
 import {
   Button,

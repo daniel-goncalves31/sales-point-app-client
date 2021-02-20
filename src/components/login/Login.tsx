@@ -1,10 +1,12 @@
+import './login.css'
+
+import { Button, Card, Form, Input } from 'antd'
+import { LockOutlined, UserOutlined } from '@ant-design/icons'
+
 import React from 'react'
-import './login.less'
-import { Card, Form, Input, Button } from 'antd'
-import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import { useCurrentUserContext } from '../../contexts/CurrentUserContext'
-import { usePostApi } from '../../hooks/use-post-api'
 import { useDialogContext } from '../../contexts/DialogContext'
+import { usePostApi } from '../../hooks/use-post-api'
 
 interface Props { }
 

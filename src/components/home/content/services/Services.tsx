@@ -1,25 +1,27 @@
-import React, { useState, useEffect } from 'react'
+import './services.styles.css'
+
 import {
-  Typography,
+  Button,
   Divider,
-  Table,
-  Input,
   Form,
+  Input,
   Popconfirm,
   Space,
-  Button,
-  Tooltip
+  Table,
+  Tooltip,
+  Typography
 } from 'antd'
-import { ServiceModel } from '../../../../models/ServiceModel'
-import { useServiceContext } from '../../../../contexts/ServiceContext'
 import { CloseOutlined, EditOutlined } from '@ant-design/icons'
-import EditableServiceCell from './EditableServiceCell'
+import React, { useEffect, useState } from 'react'
+
 import AddServiceModal from './AddServiceModal'
-import './services.styles.less'
-import { usePostApi } from '../../../../hooks/use-post-api'
+import EditableServiceCell from './EditableServiceCell'
+import { ServiceModel } from '../../../../models/ServiceModel'
 import { log } from '../../../../utils/log'
-import { useSaleContext } from '../../../../contexts/SaleContext'
 import { useCurrentUserContext } from '../../../../contexts/CurrentUserContext'
+import { usePostApi } from '../../../../hooks/use-post-api'
+import { useSaleContext } from '../../../../contexts/SaleContext'
+import { useServiceContext } from '../../../../contexts/ServiceContext'
 
 interface Props { }
 
