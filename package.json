@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.0.0",
+    "@craco/craco": "^5.5.0",
     "antd": "^4.9.4",
     "antd-mask-input": "^0.1.14",
     "axios": "^0.21.1",
